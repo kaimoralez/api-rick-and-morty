@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-secondary-black);
+    padding: 40px 60px;
+}
+
+.list-header{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    color: var(--color-secondary-white);
+    list-style: none;
+}
+
+ .list-header li{
+    color: var(--color-tertiary-white);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-light);
+ }

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    /* COLORS */
+    --color-primary-green: #8FC748;
+    --color-secondary-black: #000000;
+    --color-tertiary-white: #ffffff;
+
+    /* FONT */
+    --font-primary: "Poppins", sans-serif;
+    
+    /* FONT SIZES*/
+    --font-headline-h1-size: 61px;
+    --font-headline-h2-size: 49px;
+    --font-headline-h3-size: 31px;
+    --font-headline-h4-size: 20px;
+    --font-body-size: 16px;
+
+    /* FONT WEIGHTS */
+    --fw-extralight: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700; 
+}
