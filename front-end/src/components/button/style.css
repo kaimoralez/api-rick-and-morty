@@ -1,0 +1,42 @@
+.primary-button{
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 20px;
+  border: 2px solid var(--color-primary-green) ;
+  border-color: var(--color-primary-green);
+  background: transparent;
+  background-size: 400%;
+  cursor: pointer;
+  font-family: var(--font-primary);
+  font-size: var(--font-body-size);
+}
+
+.primary-button:hover::before {
+  transform: scaleX(1);
+}
+
+.btn-txt {
+  position: relative;
+  z-index: 1;
+  color: var(--color-primary-green);
+}
+
+.primary-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: var(--color-primary-green);
+  transition: all 0.6s;
+}
+
+.primary-button:hover .btn-txt {
+  color: var(--color-secondary-black);
+}

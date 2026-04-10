@@ -1,0 +1,31 @@
+.section-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary-black);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-tertiary-white);
+    width: 573px;
+    text-align: center;
+    align-items: center;
+    gap:40px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text h1{
+    font-size: var(--font-headline-h1-size);
+    font-family: var(--font-primary);
+    font-weight: var(--fw-semi-bold);
+}
+
+.hero-text p{
+    font-family: var(--font-primary);
+}
